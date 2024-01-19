@@ -100,7 +100,6 @@ document.querySelector(".check").addEventListener("click", function () {
       displayMessage("💥 you lose the game!");
       displayScore(0);
       document.querySelector("body").style.backgroundColor = "red";
-      displayNumber(secretNumber);
     }
   }
 });
